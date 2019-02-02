@@ -249,14 +249,14 @@ header{
 }
 .logo{
 	float:left;
-	background:url(../images/logo-2.png) no-repeat 0 0;
+	background:url(/logo-2.png) no-repeat 0 0;
 	width:123px;
 	height:80px;
 	font-size:0;
 	line-height:0;
 }
 .isStuck .logo{
-	background:url(../images/logo.png) no-repeat 0 0;
+	background:url(logo.png) no-repeat 0 0;
 }
 .navwrapper .container{
 	padding:0;
@@ -746,7 +746,7 @@ span.hoverBox .zoom{
 	color:#fff;
 	position: relative;
 	left:-180%;
-	background:url(../images/plus-icon.png) 50% 50% no-repeat;
+	background:url(plus-icon.png) 50% 50% no-repeat;
 	margin-left:47px;
 	/*top:40%;*/
 	text-align:center;
@@ -840,7 +840,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	z-index: 99999;
 	margin: 0 auto;
 }
-.abc #pbImage{
+.abc #pb
+{
 	position:static !important;
 }
 
@@ -968,7 +969,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .contactInfo{
-	background:#101010 url(../images/contact-bg) repeat 0 0 fixed;
+	background:#101010 url(contact-bg) repeat 0 0 fixed;
 	text-align:center;
 	padding:94px 0 35px;
 	position:relative;
@@ -1106,7 +1107,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
-	background-image:url(../images/preloader.gif); /* path to your loading animation */
+	background-image:url(preloader.gif); /* path to your loading animation */
 	background-repeat:no-repeat;
 	background-position:center;
 	margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -1276,10 +1277,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		float:none;
 		width:100%;
 		height:40px;
-		background:url(../images/arrow-top.png) no-repeat 50% 100%;
+		background:url(arrow-top.png) no-repeat 50% 100%;
 	}
 	.education .arrowpart{
-		background:url(../images/arrow-top-light.png) no-repeat 50% 100%;
+		background:url(arrow-top-light.png) no-repeat 50% 100%;
 	}
 	.exCon{
 		margin-left:0px;
